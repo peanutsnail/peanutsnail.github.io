@@ -1,0 +1,39 @@
+@font-face {
+	font-family: YoungSerif-Regular;
+	src: url(fonts/YoungSerif-Regular.ttf);
+}
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+
+html {
+	max-width: 948px;
+	margin: 0 auto;
+	padding: 48px 24px 48px 24px;
+	background: #918378;
+	color: #211e1d;
+}
+body{
+
+}
+h1{
+	font-family: "YoungSerif-Regular", serif;
+	font-size: 3em;
+	font-weight: bold;
+	font-style: normal;
+}
+p{
+	font-family: "Roboto-Regular", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+}
+/* a # is for an id */
+#hub_links{
+	color:blue;
+}
+/* a . is for any class */
+.start_text{
+	color: #211e1d;
+}
