@@ -20,6 +20,12 @@ h1{
 	font-weight: bold;
 	font-style: normal;
 }
+h2{
+	font-family: "YoungSerif-Regular", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+}
 p{
 	font-family: "Roboto-Regular", sans-serif;
 	font-size: 1em;
