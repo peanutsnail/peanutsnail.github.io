@@ -3,6 +3,10 @@
 	src: url(fonts/YoungSerif-Regular.ttf);
 }
 @font-face {
+	font-family: SongMyung-Regular;
+	src: url(fonts/SongMyung-Regular.ttf);
+}
+@font-face {
 	font-family: Roboto-Regular;
 	src: url(fonts/Roboto-Regular.ttf);
 }
@@ -27,8 +31,8 @@ h2{
 	font-style: normal;
 }
 p{
-	font-family: "Roboto-Regular", sans-serif;
-	font-size: 1em;
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 1.1em;
 	font-weight: normal;
 	font-style: normal;
 }
