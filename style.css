@@ -14,29 +14,80 @@ html {
 	background: #918378;
 	color: #211e1d;
 }
+
+/* NOT IN USE */
+nav{
+}
+
+/* NOT IN USE */
+table{
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	font-style: normal;
+	border: 1px transparent;
+	width: 18em;
+
+}
+
+nav ul{
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	font-style: normal;
+	list-style: none;
+	padding: 0%;
+	margin: 0%;
+	float: left;
+}
+
 h1{
 	font-family: "YoungSerif-Regular", serif;
 	font-size: 3em;
 	font-weight: bold;
 	font-style: normal;
 }
+
 h2{
 	font-family: "YoungSerif-Regular", serif;
 	font-size: 1.5em;
 	font-weight: bold;
 	font-style: normal;
 }
+
 p{
 	font-family: "Roboto-Regular", sans-serif;
 	font-size: 1em;
 	font-weight: normal;
 	font-style: normal;
 }
+
+/* NOT IN USE */
 /* a # is for an id */
 #hub_links{
-	color:blue;
+	color: #211e1d;
+	font-size: 1.1em;
+	text-decoration: none;
 }
+
+/* NOT IN USE */
 /* a . is for any class */
 .start_text{
 	color: #211e1d;
+}
+
+.active{
+	font-style: italic;
+}
+
+.clear_float{
+	clear: both;
+}
+
+.title{
+	float: left;
+}
+
+.padding_from_title{
+	padding-left: 10%;
 }
