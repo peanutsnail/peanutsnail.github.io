@@ -20,10 +20,6 @@ html {
 	color: #211e1d;
 }
 
-/* NOT IN USE */
-nav{
-}
-
 body{
     min-height: 90vh;
     display: flex;
