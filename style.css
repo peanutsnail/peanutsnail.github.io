@@ -10,19 +10,71 @@
 	font-family: Roboto-Regular;
 	src: url(fonts/Roboto-Regular.ttf);
 }
+@font-face {
+	font-family: SongMyung-Regular;
+	src: url(fonts/SongMyung-Regular.ttf);
+}
 
 html {
 	max-width: 948px;
 	margin: 0 auto;
-	padding: 48px 24px 48px 24px;
+	/* PADDING = top/bottom then left/right */
+	padding: 45px 350px;
 	background: #918378;
 	color: #211e1d;
 }
+<<<<<<< Updated upstream
+=======
+
+/* NOT IN USE */
+nav{
+}
+
+body{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto;
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	font-style: normal;
+	
+}
+
+/* NOT IN USE */
+table{
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	font-style: normal;
+	border: 1px transparent;
+	width: 18em;
+
+}
+
+nav ul{
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 1.1em;
+	font-weight: normal;
+	font-style: normal;
+	list-style: none;
+	padding-right: 5px;
+	margin: 0%;
+	float: left;
+}
+
+>>>>>>> Stashed changes
 h1{
 	font-family: "YoungSerif-Regular", serif;
 	font-size: 3em;
 	font-weight: bold;
 	font-style: normal;
+	text-decoration: none;
+	color: #211e1d;
 }
 h2{
 	font-family: "YoungSerif-Regular", serif;
@@ -36,6 +88,18 @@ p{
 	font-weight: normal;
 	font-style: normal;
 }
+<<<<<<< Updated upstream
+=======
+
+hr{
+	border-color: #211e1d;
+}
+
+img{
+	float:"left";
+}
+
+>>>>>>> Stashed changes
 /* a # is for an id */
 #hub_links{
 	color:blue;
@@ -43,4 +107,31 @@ p{
 /* a . is for any class */
 .start_text{
 	color: #211e1d;
+<<<<<<< Updated upstream
+=======
+}
+
+.active{
+	font-style: italic;
+}
+
+.clear_float{
+	clear: both;
+}
+
+.title{
+	float: left;
+	color: #211e1d;
+	text-decoration: none;
+}
+
+.padding_from_title{
+	padding-left: 10%;
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+>>>>>>> Stashed changes
 }
