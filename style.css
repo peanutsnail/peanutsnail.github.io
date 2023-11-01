@@ -10,10 +10,6 @@
 	font-family: Roboto-Regular;
 	src: url(fonts/Roboto-Regular.ttf);
 }
-@font-face {
-	font-family: SongMyung-Regular;
-	src: url(fonts/SongMyung-Regular.ttf);
-}
 
 html {
 	max-width: 948px;
@@ -23,8 +19,6 @@ html {
 	background: #918378;
 	color: #211e1d;
 }
-<<<<<<< Updated upstream
-=======
 
 /* NOT IN USE */
 nav{
@@ -67,7 +61,6 @@ nav ul{
 	float: left;
 }
 
->>>>>>> Stashed changes
 h1{
 	font-family: "YoungSerif-Regular", serif;
 	font-size: 3em;
@@ -88,8 +81,6 @@ p{
 	font-weight: normal;
 	font-style: normal;
 }
-<<<<<<< Updated upstream
-=======
 
 hr{
 	border-color: #211e1d;
@@ -99,7 +90,6 @@ img{
 	float:"left";
 }
 
->>>>>>> Stashed changes
 /* a # is for an id */
 #hub_links{
 	color:blue;
@@ -107,8 +97,6 @@ img{
 /* a . is for any class */
 .start_text{
 	color: #211e1d;
-<<<<<<< Updated upstream
-=======
 }
 
 .active{
@@ -133,5 +121,4 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
->>>>>>> Stashed changes
 }
