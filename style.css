@@ -24,6 +24,11 @@ body{
     min-height: 90vh;
     display: flex;
     flex-direction: column;
+	font-family: "SongMyung-Regular", sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	font-style: normal;
+	color: #211e1d;
 }
 
 footer{
@@ -32,7 +37,6 @@ footer{
 	font-size: 0.8em;
 	font-weight: normal;
 	font-style: normal;
-	
 }
 
 /* NOT IN USE */
@@ -52,30 +56,43 @@ nav ul{
 	font-weight: normal;
 	font-style: normal;
 	list-style: none;
-	padding-right: 5px;
+	padding-right: 30px;
 	margin: 0%;
 	float: left;
 }
 
 h1{
 	font-family: "YoungSerif-Regular", serif;
-	font-size: 3em;
+	font-size: 2.9em;
 	font-weight: bold;
-	font-style: normal;
 	text-decoration: none;
-	color: #211e1d;
+	margin-top: 0;
+	margin-bottom: 0;
 }
+
 h2{
 	font-family: "YoungSerif-Regular", serif;
 	font-size: 1.5em;
 	font-weight: bold;
-	font-style: normal;
+	margin-bottom: 0;
 }
-p{
-	font-family: "SongMyung-Regular", sans-serif;
-	font-size: 1.1em;
-	font-weight: normal;
-	font-style: normal;
+
+div{
+	text-align: center;
+}
+
+a{
+	color:#211e1d;
+	text-decoration: underline;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li:before {
+	content: '> ';
 }
 
 hr{
@@ -88,7 +105,8 @@ img{
 
 /* a # is for an id */
 #hub_links{
-	color:blue;
+	color:#211e1d;
+	text-decoration: none;
 }
 /* a . is for any class */
 .start_text{
