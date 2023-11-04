@@ -6,10 +6,6 @@
 	font-family: SongMyung-Regular;
 	src: url(fonts/SongMyung-Regular.ttf);
 }
-@font-face {
-	font-family: Roboto-Regular;
-	src: url(fonts/Roboto-Regular.ttf);
-}
 
 html {
 	max-width: 948px;
@@ -26,8 +22,6 @@ body{
     flex-direction: column;
 	font-family: "SongMyung-Regular", sans-serif;
 	font-size: 1em;
-	font-weight: normal;
-	font-style: normal;
 	color: #211e1d;
 }
 
@@ -39,15 +33,19 @@ footer{
 	font-style: normal;
 }
 
-/* NOT IN USE */
 table{
 	font-family: "SongMyung-Regular", sans-serif;
-	font-size: 1.1em;
+	font-size: 1em;
 	font-weight: normal;
 	font-style: normal;
 	border: 1px transparent;
-	width: 18em;
+	margin-left: auto; 
+	margin-right: auto;
+}
 
+th{
+	font-size: 1.1em;
+	font-weight: bolder;
 }
 
 nav ul{
@@ -77,6 +75,13 @@ h2{
 	margin-bottom: 0;
 }
 
+h3{
+	font-family: "YoungSerif-Regular", serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
 div{
 	text-align: center;
 }
@@ -93,6 +98,11 @@ ul{
 
 ul li:before {
 	content: '> ';
+}
+
+ol li{
+	padding-top: 0;
+	padding-left: 1;
 }
 
 hr{
