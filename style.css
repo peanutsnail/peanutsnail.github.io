@@ -22,6 +22,7 @@ body{
     flex-direction: column;
 	font-family: "SongMyung-Regular", sans-serif;
 	font-size: 1em;
+	text-align: left;
 	color: #211e1d;
 }
 
@@ -109,10 +110,6 @@ hr{
 	border-color: #211e1d;
 }
 
-img{
-	float:"left";
-}
-
 /* a # is for an id */
 #hub_links{
 	color:#211e1d;
@@ -146,3 +143,8 @@ img{
     align-items: center;
     justify-content: center;
 }
+
+.tab { 
+	display: inline-block; 
+    margin-left: 40px;  
+} 
