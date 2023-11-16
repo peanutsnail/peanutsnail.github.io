@@ -7,10 +7,44 @@
 	src: url(fonts/Roboto-Regular.ttf);
 }
 
+
+
+
+
+
+/* extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+
+
+
+
+
+
+
+
 html {
 	max-width: 948px;
 	margin: 0 auto;
+<<<<<<< Updated upstream
 	padding: 48px 24px 48px 24px;
+=======
+	/* PADDING = top/bottom then left/right */
+	/*padding: 45px 350px; */
+	padding: 5% 20%;
+>>>>>>> Stashed changes
 	background: #918378;
 	color: #211e1d;
 }
@@ -30,7 +64,7 @@ table{
 
 }
 
-nav ul{
+div nav ul{
 	font-family: "SongMyung-Regular", sans-serif;
 	font-size: 1.1em;
 	font-weight: normal;
@@ -55,11 +89,42 @@ h2{
 	font-style: normal;
 }
 
+<<<<<<< Updated upstream
 p{
 	font-family: "Roboto-Regular", sans-serif;
 	font-size: 1em;
 	font-weight: normal;
 	font-style: normal;
+=======
+h3{
+	font-family: "YoungSerif-Regular", serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+a{
+	color:#211e1d;
+	text-decoration: underline;
+}
+
+ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+ul li:before {
+	content: '> ';
+}
+
+ol li{
+	padding-top: 0;
+	padding-left: 1;
+}
+
+hr{
+	border-color: #211e1d;
+>>>>>>> Stashed changes
 }
 
 /* NOT IN USE */
@@ -90,4 +155,22 @@ p{
 
 .padding_from_title{
 	padding-left: 10%;
+<<<<<<< Updated upstream
+=======
+}
+
+.footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab { 
+	display: inline-block; 
+    margin-left: 40px;  
+} 
+
+.centre {
+	text-align: center;
+>>>>>>> Stashed changes
 }
